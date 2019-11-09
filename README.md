@@ -9,7 +9,9 @@ To run the code execute the following command.
 go get -u github.com/amenzhinsky/iothub
 go get -u github.com/tkanos/gonfig
 ```
-In your IoT hub instance add a custom route
+In this example I choose to do the routing based upon a application property. 
+
+In your IoT hub instance add a custom route e.g. DeviceStatusChanged in this case.
 
 ![custom route](/images/MessageRouting.JPG)
 
